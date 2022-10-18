@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name="Login Area Test">
+        <packages>
+            <package name="com.squarebear.web.test.*"/>
+        </packages>
+    </test>
+</suite>
